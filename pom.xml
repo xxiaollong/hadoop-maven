@@ -17,6 +17,7 @@
         <hadoop.version>2.8.5</hadoop.version>
         <hive.version>2.1.1</hive.version>
         <hbase.version>1.3.1</hbase.version>
+        <flume.version>1.7.0</flume.version>
     </properties>
 
 
@@ -92,6 +93,14 @@
             <version>${hbase.version}</version>
         </dependency>
 
+        <!--Flume-->
+        <dependency>
+            <groupId>org.apache.flume</groupId>
+            <artifactId>flume-ng-core</artifactId>
+            <version>${flume.version}</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -108,7 +117,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.TestMain1</mainClass>
+                            <mainClass>com.example.Flume.MyInterceptor</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
