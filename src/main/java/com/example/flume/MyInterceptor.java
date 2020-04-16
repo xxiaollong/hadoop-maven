@@ -1,11 +1,10 @@
-package com.example.Flume;
+package com.example.flume;
 
 import org.apache.flume.Context;
 import org.apache.flume.Event;
 import org.apache.flume.interceptor.Interceptor;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * 自定义拦截器

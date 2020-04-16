@@ -1,4 +1,4 @@
-package com.example.Flume;
+package com.example.flume;
 
 import org.apache.flume.Context;
 import org.apache.flume.EventDeliveryException;

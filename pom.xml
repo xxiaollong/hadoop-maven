@@ -117,7 +117,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.Flume.MyInterceptor</mainClass>
+                            <mainClass>com.example.flume.MyInterceptor</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
